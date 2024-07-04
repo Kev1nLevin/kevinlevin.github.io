@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  background: radial-gradient(ellipse closest-side at 50% 60%, #FAF6EC, #FAF6EC 25%, #FAF6EC);
+}
+
+#main {
+  position: absolute;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1.5);
+}
+
+.pulpo {
+  position: relative;
+  left: -200px;
+  top: -100px;
+  animation: pulpo 6s ease-in-out infinite;
+}
+
+@keyframes pulpo {
+ 0% {
+    transform: translateY(0)
+  }
+ 50% {
+   transform: translateY(30px)
+ }
+ 100% {
+    transform: translateY(0)
+ }
+}
+
+.hero-logo-circles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.hero-circle {
+  position: absolute;
+}
+
+.atom-logo {
+  transform: scale(2);
+  position: absolute;
+}
+
+.hero-logo-circle1 {
+  animation: circle 25s forwards linear infinite;
+}
+.hero-logo-circle2 {
+  animation: circle 30s forwards linear infinite;
+}
+.hero-logo-circle3 {
+  animation: circle 32s forwards linear infinite;
+}
+.hero-logo-circle4 {
+  animation: circle 41s forwards linear infinite;
+}
+.hero-logo-circle5 {
+  animation: circle 52s forwards linear infinite;
+}
+.hero-logo-circle6 {
+  animation: circle 65s forwards linear infinite;
+}
+.hero-logo-circle7 {
+  animation: circle 80s forwards linear infinite;
+}
+.hero-logo-circle8 {
+  animation: circle 97s forwards linear infinite;
+}
+.hero-logo-circle9 {
+  animation: circle 116s forwards linear infinite;
+}
+.hero-logo-circle10 {
+  animation: circle 138s forwards linear infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1440px) {
+  #main {
+    transform: scale(1.2);
+  }
+}
+
+@media (max-width: 980px) {
+  #main {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 720px) {
+  #main {
+    transform: scale(.8);
+  }
+}
+
+@media (max-width: 420px) {
+  #main {
+    transform: scale(.6);
+  }
+}
+@media only screen and (max-width: 768px) {
+  /body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  background: radial-gradient(ellipse closest-side at 50% 60%, #FAF6EC, #FAF6EC 25%, #FAF6EC);
+}
+
+#main {
+  position: absolute;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(15);
+}
+
+.pulpo {
+  position: relative;
+  left: -200px;
+  top: -100px;
+  animation: pulpo 6s ease-in-out infinite;
+}
+
+@keyframes pulpo {
+ 0% {
+    transform: translateY(0)
+  }
+ 50% {
+   transform: translateY(30px)
+ }
+ 100% {
+    transform: translateY(0)
+ }
+}
+
+.hero-logo-circles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.hero-circle {
+  position: absolute;
+}
+
+.atom-logo {
+  transform: scale(2);
+  position: absolute;
+}
+
+.hero-logo-circle1 {
+  animation: circle 25s forwards linear infinite;
+}
+.hero-logo-circle2 {
+  animation: circle 30s forwards linear infinite;
+}
+.hero-logo-circle3 {
+  animation: circle 32s forwards linear infinite;
+}
+.hero-logo-circle4 {
+  animation: circle 41s forwards linear infinite;
+}
+.hero-logo-circle5 {
+  animation: circle 52s forwards linear infinite;
+}
+.hero-logo-circle6 {
+  animation: circle 65s forwards linear infinite;
+}
+.hero-logo-circle7 {
+  animation: circle 80s forwards linear infinite;
+}
+.hero-logo-circle8 {
+  animation: circle 97s forwards linear infinite;
+}
+.hero-logo-circle9 {
+  animation: circle 116s forwards linear infinite;
+}
+.hero-logo-circle10 {
+  animation: circle 138s forwards linear infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1440px) {
+  #main {
+    transform: scale(1.2);
+  }
+}
+
+@media (max-width: 980px) {
+  #main {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 720px) {
+  #main {
+    transform: scale(.8);
+  }
+}
+
+@media (max-width: 420px) {
+  #main {
+    transform: scale(.6);
+  }
+}
+}
